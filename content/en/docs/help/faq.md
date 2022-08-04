@@ -36,6 +36,7 @@ Create a topic:
 - [Netlify Community](https://community.netlify.com/)
 - [Hugo Forums](https://discourse.gohugo.io/)
 - [Doks Discussions](https://github.com/h-enk/doks/discussions)
+- [Recruitment Glossary Discussions](https://github.com/jamie-taylor-rjj/Recruitment-Glossary/discussions)
 
 ## Contact the theme creator?
 

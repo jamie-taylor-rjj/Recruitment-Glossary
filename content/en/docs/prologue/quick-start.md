@@ -24,10 +24,10 @@ Recruitment Glossary uses npm (included with Node.js) to centralize dependency m
 
 ## Cloning the Code
 
-Firstly, you will need to use Git to clone the code for this repository down to your local machine. The code is hosted at [a GitHub repo](https://github.com/h-enk/doks), and can be cloned with the following command:
+Firstly, you will need to use Git to clone the code for this repository down to your local machine. The code is hosted at [a GitHub repo](https://github.com/jamie-taylor-rjj/Recruitment-Glossary), and can be cloned with the following command:
 
 ```bash
-git clone https://github.com/h-enk/doks.git
+git clone https://github.com/jamie-taylor-rjj/Recruitment-Glossary.git
 ```
 
 This will copy all of the files from the GitHub repository down to your local machine, placing them in a RecruitmentGlossary directory.
@@ -69,7 +69,7 @@ This will start build the web application, and start a local web server. The web
 
 If the above commands don't work for you, first check the [Troubleshooting]({{< relref "troubleshooting" >}}) page.
 
-If the webapp still does not build locally, then please take a look at filing an issue in the [GitHub repository](https://github.com/h-enk/doks) for this project. However, please do check that you have installed the correct versions of the dependencies listed above before posting an issue.
+If the webapp still does not build locally, then please take a look at filing an issue in the [GitHub repository](https://github.com/jamie-taylor-rjj/Recruitment-Glossary/issues) for this project. However, please do check that you have installed the correct versions of the dependencies listed above before posting an issue.
 
 ## Other commands
 

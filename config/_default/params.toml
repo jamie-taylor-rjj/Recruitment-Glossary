@@ -34,9 +34,9 @@ schemaLogoHeight = 512
 schemaImage = "doks.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"  ## TODO: need a twitter
+schemaTwitter = "https://github.com/jamie-taylor-rjj/Recruitment-Glossary"  ## TODO: need a twitter
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks" ## TODO: link to GitHub repo
+schemaGitHub = "https://github.com/jamie-taylor-rjj/Recruitment-Glossary" ## TODO: link to GitHub repo
 schemaSection = "blog"
 
 ## Sitelinks Search Box

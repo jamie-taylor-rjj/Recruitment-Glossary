@@ -120,8 +120,7 @@ lastMod = false
     content = "Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/recruitment-glossary.netlify.app) out of the box. Easily change the default Security Headers to suit your needs"
   [[homepage.items]]
     title = "Fast by default ⚡️"
-    ## TODO: need a Google Lighthouse score to link to, perhaps as a GitHub action?
-    content = "Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=59aafe464a68f8bc30b8e9a636d5b053) by default. All unused css is removed, links are prefetches, and images lazy loaded"
+    content = "Get 100 scores on [Google Lighthouse](https://web.dev/measure/?url=https%3A%2F%2Frecruitment-glossary.netlify.app) by default. All unused css is removed, links are prefetches, and images lazy loaded"
   [[homepage.items]]
     title = "SEO Ready"
     content = "Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking."

@@ -13,7 +13,6 @@ This repo is based on the [doks](https://github.com/h-enk/doks) theme for Hugo. 
 
 ### TODOS
 
-- Get a Google Lighthouse score to link to, perhaps as a GitHub action
 - Create an image for the project
   - `## TODO: need an image`
 - Contemplate setting up a Twitter; can post here when there's an update

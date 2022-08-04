@@ -1,0 +1,45 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
+      <h1 class="mt-0">{{ .Title }}</h1>
+    </div>
+    <div class="col-lg-9 col-xl-8 text-center">
+      <p class="lead">{{ .Params.lead | safeHTML }}</p>
+      <a class="btn btn-primary btn-lg px-4 mb-2"
+        href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/"
+        role="button">{{ i18n "get-started" }}</a>
+        <!-- TODO: need link to GitHub repo -->
+      <p class="meta">Open-source MIT Licensed. <a href="{{ .Site.Params.docsRepo }}">GitHub v{{ $data := getJSON
+          "/package.json" }}{{ $data.version }}</a></p>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+{{ if eq $.Site.Language.LanguageName "English" }}
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      {{ range $.Site.Params.homepage.items }}
+      <div class="col-lg-5">
+        <h2 class="h4"> {{ .title }} </h2>
+        <p>{{ .content | markdownify }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<section class="section section-sm container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-9">
+      {{- .Content -}}
+    </div>
+  </div>
+</section>
+{{ end }}

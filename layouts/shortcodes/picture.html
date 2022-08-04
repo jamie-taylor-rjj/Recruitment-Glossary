@@ -1,0 +1,27 @@
+{{ $img       := .Get "img" }}
+{{ $alt       := .Get "alt" }}
+{{ $caption   := .Get "caption" }}
+<figure class="all-width">
+    <picture>
+        <source
+            srcset="{{$img}}.webp"
+            type="image/webp"
+            media="(min-width: 1200px)">
+        <source
+            srcset="{{$img}}-large.jpg"
+            media="(min-width: 1200px)">
+        <source
+            srcset="{{$img}}-medium.jpg"
+            media="(min-width: 800px)">
+        <source
+            srcset="{{$img}}-medium.jpg"
+            media="(min-width: 340px)">
+        <img
+            src="{{$img}}-medium.jpg"
+            alt="{{$alt}}"
+            class="img-fluid">
+    </picture>
+    <figcaption>
+        <h5>{{ $caption | markdownify }}</h5>
+    </figcaption>
+</figure>

@@ -1,0 +1,136 @@
+# Meta Data for SEO
+
+## Homepage
+title = "Recruitment Glossary"
+titleSeparator = "-"
+titleAddition = "A Helper Application"
+description = "A web application designed to help bridge the knowledge gaps between recruiters and technology workers (developers, designers, testers, etc.)."
+
+## Documentation
+# docsVersion = "0.3"
+
+## Open Graph
+images = ["doks.png"] ## TODO: need an image
+ogLocale = "en_GB"
+domainTLD = "doks.netlify.app" ## TODO: update when we have the URL
+titleHome = "Recruitment Glossary"
+
+## Twitter Cards
+twitterSite = "@getdoks" ## TODO: need a twitter
+twitterCreator = "@podcasterjay"
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "Recruitment Glossary"
+schemaAuthor = "Jamie Taylor"
+schemaAuthorTwitter = "https://twitter.com/podcasterjay"
+schemaAuthorLinkedIn = "https://linkedin.com/in/%f0%9f%91%a8%e2%80%8d%f0%9f%92%bb-jamie-taylor-57602959"
+schemaAuthorGitHub = "https://github.com/jamie-taylor-rjj"
+schemaLocale = "en-GB"
+schemaLogo = "logo-doks.png"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "doks.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaTwitter = "https://twitter.com/getdoks"  ## TODO: need a twitter
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/h-enk/doks" ## TODO: link to GitHub repo
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "300"
+
+# Images
+imageResponsive = true
+imageConvertTo = "webp"
+imageImageSizes = ["480","720","1080","1280","1600","2048"]
+singleSize = false
+imageAddClass = "img-fluid lazyload blur-up"
+
+### Image template
+defaultImage = "default-image.png" # put in `./assets/images/`
+fillImage = "1270x740 Center" # normalize image size
+
+# Footer
+footer = "Powered by [Netlify](https://www.netlify.com), [Hugo](https://gohugo.io), and [Doks](https://getdoks.org)."
+
+# Feed
+copyRight = "Copyright (c) 2020-2021 Jamie Taylor"
+
+# Alert
+alert = false
+alertDismissable = true
+# alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
+alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
+
+# Edit Page
+# repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+#repoHost = "Gitea"
+docsRepo = "https://github.com/h-enk/doks" ## TODO: need link to GitHub repo
+docsRepoBranch = "master"
+docsRepoSubPath = ""
+editPage = false
+lastMod = false
+
+[sections]
+  sectionNav = ["docs", "guides"]
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  searchSectionsShow = []
+  searchSectionsIndex = []
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = false
+  highLight = true
+  kaTex = false
+  multilingualMode = false
+  docsVersioning = false
+  fullWidth = false
+  navbarSticky = true
+  toTopButton = false
+  scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
+
+[menu]
+  [menu.section]
+    auto = true
+    collapsibleSidebar = true
+
+[homepage]
+
+  [[homepage.items]]
+    title = "Security aware"
+    content = "Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/doks.netlify.app) out of the box. Easily change the default Security Headers to suit your needs"
+  [[homepage.items]]
+    title = "Fast by default ⚡️"
+    ## TODO: need a Google Lighthouse score to link to, perhaps as a GitHub action?
+    content = "Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=59aafe464a68f8bc30b8e9a636d5b053) by default. All unused css is removed, links are prefetches, and images lazy loaded"
+  [[homepage.items]]
+    title = "SEO Ready"
+    content = "Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking."
+  [[homepage.items]]
+    title = "Full text search"
+    content = "Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking."
+  [[homepage.items]]
+    title = "Page layouts"
+    content = "Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs."
+  [[homepage.items]]
+    title = "Dark Mode"
+    content = "Switch to a low-light UI with the click of a button. Change colors with variables to match your branding."

@@ -13,8 +13,6 @@ This repo is based on the [doks](https://github.com/h-enk/doks) theme for Hugo. 
 
 ### TODOS
 
-- Replace all refernces to `https://github.com/h-enk/doks` with the URL or the repo
-  - `## TODO: link to GitHub repo`
 - Get a Google Lighthouse score to link to, perhaps as a GitHub action
 - Create an image for the project
   - `## TODO: need an image`

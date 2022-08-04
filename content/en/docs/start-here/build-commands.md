@@ -1,6 +1,6 @@
 ---
-title: "Commands"
-description: "A lits of the most useful commands that the Recruitment Glossary code base ships with."
+title: "Build Commands"
+description: "A list of the most useful commands that the Recruitment Glossary code base ships with."
 lead: "A list of the most useful commands that the Recruitment Glossary code base ships with."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "prologue"
+    parent: "start-here"
 weight: 130
 toc: true
 ---

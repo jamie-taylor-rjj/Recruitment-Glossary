@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "prologue"
+    parent: "start-here"
 weight: 110
 toc: true
 ---
@@ -73,4 +73,4 @@ If the webapp still does not build locally, then please take a look at filing an
 
 ## Other commands
 
-Doks (the theme that Recruitment Glossary is based on) comes with commands for common tasks. [Commands →]({{< relref "commands" >}})
+Doks (the theme that Recruitment Glossary is based on) comes with commands for common tasks. [Commands →]({{< relref "build-commands" >}})

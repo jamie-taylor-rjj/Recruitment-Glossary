@@ -1,6 +1,8 @@
 # RecruitmentGlossary
 
-This repository represents a web app which can be used by both recruiters and technology workers (developers, designers, testers, etc.) to better understand their different domains, acronyms, and working practises.
+This repository represents a web app which can be used by both recruiters and technology workers (developers, designers, testers, etc.) to better understand their different domains, acronyms, and working practices.
+
+The live version of the website can be found at [recruitment-glossary.netlify.app](https://recruitment-glossary.netlify.app/).
 
 ## Base Theme
 

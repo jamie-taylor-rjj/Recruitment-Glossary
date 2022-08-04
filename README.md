@@ -16,7 +16,5 @@ This repo is based on the [doks](https://github.com/h-enk/doks) theme for Hugo. 
 - Get a Google Lighthouse score to link to, perhaps as a GitHub action
 - Create an image for the project
   - `## TODO: need an image`
-- Replace all references to `doks.netlify.app` with live URL of project
-  - `## TODO: update when we have the URL`
 - Contemplate setting up a Twitter; can post here when there's an update
   - `## TODO: need a twitter`

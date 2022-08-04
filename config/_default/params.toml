@@ -12,7 +12,7 @@ description = "A web application designed to help bridge the knowledge gaps betw
 ## Open Graph
 images = ["doks.png"] ## TODO: need an image
 ogLocale = "en_GB"
-domainTLD = "doks.netlify.app" ## TODO: update when we have the URL
+domainTLD = "recruitment-glossary.netlify.app"
 titleHome = "Recruitment Glossary"
 
 ## Twitter Cards
@@ -117,7 +117,7 @@ lastMod = false
 
   [[homepage.items]]
     title = "Security aware"
-    content = "Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/doks.netlify.app) out of the box. Easily change the default Security Headers to suit your needs"
+    content = "Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/recruitment-glossary.netlify.app) out of the box. Easily change the default Security Headers to suit your needs"
   [[homepage.items]]
     title = "Fast by default ⚡️"
     ## TODO: need a Google Lighthouse score to link to, perhaps as a GitHub action?

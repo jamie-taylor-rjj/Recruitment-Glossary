@@ -28,7 +28,8 @@ Whilst Git is one of the most common source control systems, there are many othe
 
 ## Basic Information
 
-Git was initially created by Linus Torvalds, but has been maintained by Junio Hamano since 2005. It was originally created to make the work of maintaining the Linux kernel easier.
+Git was initially created by Linus Torvalds, but has been maintained by Junio Hamano since 2005. It was originally created to make the work of maintaining the [Linux kernel]({{< relref "what-is-linux" >}})
+ easier.
 
 Git is a command line application, but there are many different GUI (Graphical User Interface) applications which hide the complexity of the command line. Some of the most commonly used Git GUI applications are:
 

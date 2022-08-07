@@ -85,8 +85,6 @@ Changesets need to be committed to the local repository's git instance before th
 git commit -m "Added the Basic Usage section to the Git page."
 ```
 
-
-
 ## Useful Links
 
 - [List of version control software](https://en.wikipedia.org/wiki/List_of_version-control_software) @ wikipedia

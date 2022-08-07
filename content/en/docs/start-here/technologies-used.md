@@ -54,7 +54,7 @@ toc: true
 ---
 ```
 
-Under this should be the page content in markdown. Please see the [markdown for this page]() for examples of how the content should be arranged.
+Under this should be the page content in markdown. Please see the [markdown for this page](https://github.com/jamie-taylor-rjj/Recruitment-Glossary/blob/main/adding-to-start-here/content/en/docs/start-here/technologies-used.md) for examples of how the content should be arranged.
 
 ### Shortcodes
 
@@ -62,7 +62,7 @@ Whilst Hugo is a fantastic static site generator, it is possible to extend it's 
 
 ### Picture
 
-The picture shortcode is used to add an [HTML picture element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) with a custom set of images.
+The picture shortcode is used to add an [HTML picture element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) with a custom set of images. The picture element is the preferred way of displaying images over the `img` shortcode, as it allows the browser to pick the image which fits with its viewport and it has support for.
 
 This shortcode has the following arguments:
 
@@ -73,8 +73,10 @@ This shortcode has the following arguments:
 Of the above arguments, only the `img` one is required. The `img` argument is a path to the image file to display in the picture. One caveat is that you should provide three versions of the image to display:
 
 - .jpg (full size)
-- .webp (full size)
+- .webp (full size) &ast;
 - -medium.jpg (a smaller version of the image)
+
+{{< alert icon="💡" text="You can save images as webp using the [GNU Image Manipulation Program](https://www.gimp.org/)" />}}
 
 The filename of the image to display should be provided _WITHOUT_ a file extension, too.
 

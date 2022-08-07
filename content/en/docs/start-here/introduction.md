@@ -17,6 +17,8 @@ toc: true
 
 This project is an attempt to provide a place for people in both the recruitment and technology industries to exchange information and get a better understanding of each others domains.
 
+It is not the objective of this project to be the "be all, end all" of descriptions for the acronyms and technobable in the recruitment and technology industries; however the descriptions should give readers a starting place for understanding the topics covered. Occasionally, the descriptions provided will use "[lies to children](https://en.wikipedia.org/wiki/Lie-to-children)" - statements which are not 100% technically correct, but truthy enough to get the point across without having to include paragraphs of detail or lots of background knowledge.
+
 For instance, it can be very easy for developers to rattle of a series of acronyms and words which recruiters (specifically those in the technology space) may not have heard of or understand the meaning of. It is also possible for the same to happen in the opposite direction: a recruiter could use some words and phrases that a candidate may never have heard of.
 
 The goal of this application is to slowly, over time, add more and more basic descriptions of terms and domain-specific language that either a candidate or a recruiter can look up.
@@ -51,7 +53,7 @@ The Recruitment Glossary has a search function (available at the top left of eve
 
 The following is an example of a search being performed for the phrase "git"; the search is being performed on a very early version of the Recruitment Glossary:
 
-{{< picture img="/images/docs/introduction/git-search" alt="a screenshot of the Recruitment Glossary application showing that a user has searched for the word 'git'. The results of the search are shown as a drop-down under the search system" caption="" >}}
+{{< picture img="/images/docs/start-here/introduction/git-search" alt="a screenshot of the Recruitment Glossary application showing that a user has searched for the word 'git'. The results of the search are shown as a drop-down under the search system" caption="" >}}
 
 ## Contributing
 

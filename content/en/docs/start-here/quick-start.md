@@ -73,4 +73,4 @@ If the webapp still does not build locally, then please take a look at filing an
 
 ## Other commands
 
-Doks (the theme that Recruitment Glossary is based on) comes with commands for common tasks. [Commands →]({{< relref "build-commands" >}})
+Doks (the theme that Recruitment Glossary is based on) comes with commands for common tasks. [Technologies Used →]({{< relref "technologies-used" >}})

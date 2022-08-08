@@ -16,10 +16,3 @@ This repo is based on the [doks](https://github.com/h-enk/doks) theme for Hugo. 
 ## Contributing to the project
 
 Please first read through the above to get background information on this application. After that, please read through the [code of conduct](./CODE_OF_CONDUCT.md). And finally, take a look at the [contribution guide](./CONTRIBUTING.md).
-
-### TODOS
-
-- Create an image for the project
-  - `## TODO: need an image`
-- Contemplate setting up a Twitter; can post here when there's an update
-  - `## TODO: need a twitter`

@@ -48,13 +48,13 @@
   name = "Get Started"
   weight = 30
   identifier = "get-started"
-  url = "/docs/prologue/introduction/"
+  url = "/docs/start-here/introduction/"
 
 [[main]]
   name = "Quick Start"
   weight = 40
   identifier = "quick-start"
-  url = "/docs/prologue/quick-start/"
+  url = "/docs/start-here/quick-start/"
   parent = "get-started"
 
 #[[main]]

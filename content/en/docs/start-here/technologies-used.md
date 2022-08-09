@@ -37,8 +37,10 @@ All English language content should be stored within relevant directories under 
 
 Each markdown document should have a very specific format. Each file should have TOML formatted front-matter (a section of code at the very top of the file, which describes the file). The following is the front-matter for this file:
 
-```toml
+{{< highlight toml >}}
+
 ---
+ <!-- markdownlint-disable-next-line -->
 title: "Technologies Used"
 description: "A one page summary of how to get Recruitment Glossary up and running locally. This is required in order to add content to it."
 lead: "A one page summary of how to get Recruitment Glossary up and running locally. This is required in order to add content to it."
@@ -52,7 +54,7 @@ menu:
 weight: 130
 toc: true
 ---
-```
+{{< /highlight >}}
 
 Under this should be the page content in markdown. Please see the [markdown for this page](https://github.com/jamie-taylor-rjj/Recruitment-Glossary/blob/main/adding-to-start-here/content/en/docs/start-here/technologies-used.md) for examples of how the content should be arranged.
 
@@ -84,13 +86,13 @@ The filename of the image to display should be provided _WITHOUT_ a file extensi
 
 For example, suppose you have a set of images in the `/images/docs/start-here/technologies-used/` directory called `file-location.jpg`, `file-location.webp`, and `file-location-medium.jpg`. Displaying them using the picture shortcode would require the following:
 
-{{< code >}}
+{{< highlight hugo >}}
 {{</* img="/images/docs/start-here/technologies-used/file-location" */>}}
-{{< /code >}}
+{{< /highlight >}}
 
 The above shortcode will render the following HTML:
 
-{{< output >}}
+{{< highlight html >}}
 <figure class="all-width">
     <picture>
         <source srcset="/images/docs/start-here/technologies-used/file-location.webp" type="image/webp" media="(min-width: 1200px)">
@@ -103,7 +105,7 @@ The above shortcode will render the following HTML:
         <h5></h5>
     </figcaption>
 </figure>
-{{< /output >}}
+{{< /highlight >}}
 
 ## Other commands
 

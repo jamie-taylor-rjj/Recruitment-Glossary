@@ -17,14 +17,14 @@ toc: true
 
 Delete the `./node_modules` folder, and run again:
 
-```bash
+{{< highlight bash >}}
 npm install
-```
+{{< /highlight >}}
 
 ## Problems with cache
 
 Delete the temporary directories:
 
-```bash
+{{< highlight bash >}}
 npm run clean
-```
+{{< /highlight >}}

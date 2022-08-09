@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "net"
-weight: 630
+weight: 100
 toc: true
 ---
 
@@ -30,6 +30,13 @@ toc: true
 .NET Framework was originally released in 2002, and .NET Core was originally released in 2016. In November 2020, .NET Core was renamed to .NET for the .NET 5 release; going forward, ".NET" will refer to the cross-platform variant and ".NET Framework" refer to the Windows-only variant.
 
 {{< alert icon="💡" text="It is important to note that .NET Framework (the Windows-only version) is **NOT** going away any time soon." />}}
+
+There were originally two officially supported programming languages for use with .NET:
+
+- VB .NET
+- [C#]({{< relref "what-is-c-sharp" >}}) (pronounced "C Sharp")
+
+However, in recent years VB .NET support has been quietly dropped, and [F#]({{< relref "what-is-f-sharp" >}}) (pronounced "F Sharp") support has been added in it's place.
 
 ## Intermediary Information
 

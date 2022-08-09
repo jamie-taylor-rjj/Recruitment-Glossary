@@ -2,7 +2,6 @@
 
 This file is based on the [GitHub documents contribution guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md).
 
-
 Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [recruitment-glossary.netlify.app/](https://recruitment-glossary.netlify.app/) :sparkles:.
 
 Read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approachable and respectable.

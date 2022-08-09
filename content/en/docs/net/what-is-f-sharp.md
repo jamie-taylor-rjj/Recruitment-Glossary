@@ -35,8 +35,8 @@ printfn "Hello world!"
 
 But don't like the above simplicity fool you, as a more complex programs require a more complex programming style. For instance, here is the Fibonacci sequence in F# (courtesy of [The Sharp Dev](https://thesharperdev.com/posts/fsharp-fibonacci-five-ways/)):
 
+<!-- markdownlint-disable MD009-->
 {{< highlight fsharp "linenos=inline">}}
- <!-- markdownlint-disable-next-line -->
 let fib5 n = 
     let mutable last = 0
     let mutable next = 1
@@ -52,6 +52,7 @@ let fib5 n =
 
 let run = fib5 10 |> Seq.iter (printfn "%d")
 {{< /highlight >}}
+<!-- markdownlint-enable MD009 -->
 
 ## Intermediary Information
 

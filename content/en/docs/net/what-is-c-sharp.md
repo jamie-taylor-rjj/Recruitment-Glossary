@@ -31,8 +31,8 @@ There are a lot of similarities between Java and C#, such as in the following co
 
 First, C#:
 
-```csharp
-// this example uses the older style C# syntax)
+{{< highlight csharp "linenos=inline">}}
+// this example intentionally uses the older style C# syntax)
 using System;
 
 namespace HelloWorld
@@ -45,17 +45,17 @@ namespace HelloWorld
     }
   }
 }
-```
+{{< /highlight >}}
 
 And now, Java:
 
-```java
+{{< highlight java "linenos=inline">}}
 public class Main {
   public static void main(String[] args) {
     System.out.println("Hello, World!");
   }
 }
-```
+{{< /highlight >}}
 
 ## Intermediary Information
 

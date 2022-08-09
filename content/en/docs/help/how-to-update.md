@@ -19,9 +19,9 @@ toc: true
 
 It is always a good idea to ensure that you have the latest version of the code before embarking on any local development. As such, you should always make a point of running the following command before doing any new work on Recruitment Glossary:
 
-```bash
+{{< highlight bash >}}
 git pull
-```
+{{< /highlight >}}
 
 The above command assumes that you have:
 
@@ -42,9 +42,9 @@ When you cloned the repository down to your machine, the version on your machine
 
 In order to do this, you will need to run the following command:
 
-```bash
+{{< highlight bash >}}
 git push
-```
+{{< /highlight >}}
 
 This will take all of the commits that you have made and push them back to the remote repository.
 
@@ -54,14 +54,14 @@ This will take all of the commits that you have made and push them back to the r
 
 The [`npm outdated`](https://docs.npmjs.com/cli/v7/commands/npm-outdated) command will check the registry to see if any (or, specific) installed packages are currently outdated:
 
-```bash
+{{< highlight bash >}}
 npm outdated [[<@scope>/]<pkg> ...]
-```
+{{< /highlight >}}
 
 ## Update packages
 
 The [`npm update`](https://docs.npmjs.com/cli/v7/commands/npm-update) command will update all the packages listed to the latest version (specified by the tag config), respecting semver:
 
-```bash
+{{< highlight bash >}}
 npm update [<pkg>...]
-```
+{{< /highlight >}}

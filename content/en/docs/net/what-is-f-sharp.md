@@ -29,13 +29,14 @@ F# is a programming language which is similar to Haskell and other functional pr
 
 The syntax of an F# program listing can be seen as rather simplified - here is "Hello, world!" in F#:
 
-```fsharp
+{{< highlight fsharp >}}
 printfn "Hello world!"
-```
+{{< /highlight >}}
 
 But don't like the above simplicity fool you, as a more complex programs require a more complex programming style. For instance, here is the Fibonacci sequence in F# (courtesy of [The Sharp Dev](https://thesharperdev.com/posts/fsharp-fibonacci-five-ways/)):
 
-```fsharp
+{{< highlight fsharp "linenos=inline">}}
+ <!-- markdownlint-disable-next-line -->
 let fib5 n = 
     let mutable last = 0
     let mutable next = 1
@@ -50,8 +51,7 @@ let fib5 n =
         }
 
 let run = fib5 10 |> Seq.iter (printfn "%d")
-
-```
+{{< /highlight >}}
 
 ## Intermediary Information
 

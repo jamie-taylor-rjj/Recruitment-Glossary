@@ -26,9 +26,9 @@ Recruitment Glossary uses npm (included with Node.js) to centralize dependency m
 
 Firstly, you will need to use Git to clone the code for this repository down to your local machine. The code is hosted at [a GitHub repo](https://github.com/jamie-taylor-rjj/Recruitment-Glossary), and can be cloned with the following command:
 
-```bash
+{{< highlight bash >}}
 git clone https://github.com/jamie-taylor-rjj/Recruitment-Glossary.git
-```
+{{< /highlight >}}
 
 This will copy all of the files from the GitHub repository down to your local machine, placing them in a RecruitmentGlossary directory.
 
@@ -47,9 +47,9 @@ Both achieve the same thing, and either is preferred. gh is a newer (and GitHub 
 
 In order to build the repository locally, you'll first need to install all of the npm dependencies. This can be done by running the following command in the RecruitmentGlossary directory:
 
-```bash
+{{< highlight bash >}}
 npm install
-```
+{{< /highlight >}}
 
 {{< details "npm install" >}}
 Whenever you run this comment, npm (which is part of Node.js) will read through the package.json file and download all of the dependencies listed there. It will place all of the downloaded dependecies in the `node_modules` directory. Without the dependencies in this directory, the build and run commands will not work.
@@ -59,9 +59,9 @@ Whenever you run this comment, npm (which is part of Node.js) will read through 
 
 Once the install process completes, you can start the web application locally by running:
 
-```bash
+{{< highlight bash >}}
 npm run start
-```
+{{< /highlight >}}
 
 This will start build the web application, and start a local web server. The web server will serve the built web application, and will be available at [localhost:1313](http://localhost:1313/).
 

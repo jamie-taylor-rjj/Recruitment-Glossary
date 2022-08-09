@@ -42,9 +42,9 @@ Git is a command line application, but there are many different GUI (Graphical U
 
 Suppose that you wish to work on the repository for this website, you would need to "clone" (i.e. copy down) the git repository from `https://github.com/jamie-taylor-rjj/Recruitment-Glossary`. This achieved by issuing the following command:
 
-```bash
+{{< highlight bash >}}
 git clone https://github.com/jamie-taylor-rjj/Recruitment-Glossary.git
-```
+{{< /highlight >}}
 
 {{< details "Cannot find command 'git'" >}}
 Whilst Git is usually installed on all MacOS and Linux-based distributions, it is not installed on Windows by default.
@@ -55,35 +55,35 @@ This will make a local copy of the GitHub repository for this project.
 
 When you have made a number of changes, you can see the files that you have altered or created using the `status` command:
 
-```bash
+{{< highlight bash >}}
 git status
-```
+{{< /highlight >}}
 
 You should received output similar to the following:
 
-```bash
+{{< highlight bash >}}
 On branch feature/git
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
         modified:   content/en/docs/git/what-is-git.md
-```
+{{< /highlight >}}
 
 (the above is the output that was received when working on this file)
 
 When you are happy with this changes, they need to be added to a changeset using the `add` command:
 
-```bash
+{{< highlight bash >}}
 git add content/en/docs/git/what-is-git.md
-```
+{{< /highlight >}}
 
 This command will take the changes that you have made to this file and add it to either a new changeset or the current changeset.
 
 Changesets need to be committed to the local repository's git instance before they are considered stored. This is achieved with the `commit` command, and frequently paired with a human readable message which describes the changes that you made.
 
-```bash
+{{< highlight bash >}}
 git commit -m "Added the Basic Usage section to the Git page."
-```
+{{< /highlight >}}
 
 ## Useful Links
 

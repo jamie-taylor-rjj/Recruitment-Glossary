@@ -34,33 +34,33 @@ Not quite sure? Use the Doks child theme.
 
 #### Doks child theme
 
-```bash
+{{< highlight bash >}}
 git clone https://github.com/h-enk/doks-child-theme.git my-doks-site
-```
+{{< /highlight >}}
 
 #### Doks starter theme
 
-```bash
+{{< highlight bash >}}
 git clone https://github.com/h-enk/doks.git my-doks-site
-```
+{{< /highlight >}}
 
 ### Change directories
 
-```bash
+{{< highlight bash >}}
 cd my-doks-site
-```
+{{< /highlight >}}
 
 ### Install dependencies
 
-```bash
+{{< highlight bash >}}
 npm install
-```
+{{< /highlight >}}
 
 ### Start development server
 
-```bash
+{{< highlight bash >}}
 npm run start
-```
+{{< /highlight >}}
 
 Doks will start the Hugo development webserver accessible by default at `http://localhost:1313`. Saved changes will live reload in the browser.
 

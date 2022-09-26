@@ -89,3 +89,4 @@ git commit -m "Added the Basic Usage section to the Git page."
 
 - [List of version control software](https://en.wikipedia.org/wiki/List_of_version-control_software) @ wikipedia
 - [Git](https://en.wikibooks.org/wiki/Git) @ wikibooks
+- [Understanding Git](https://www.codingblocks.net/podcast/understanding-git/) @ CodingBlocks

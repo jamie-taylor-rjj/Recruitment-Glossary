@@ -8,6 +8,11 @@ The live version of the website can be found at [recruitment-glossary.netlify.ap
 
 This repo is based on the [doks](https://github.com/h-enk/doks) theme for Hugo. Please ensure that you have read through the [docs for doks](https://getdoks.org/docs) before submitting PRs against this repo.
 
+## Tool Requirements
+
+- node version 16.16.0 or later
+- Visual Studio Code (recommended)
+
 ## Building & Running
 
 1. `npm install`

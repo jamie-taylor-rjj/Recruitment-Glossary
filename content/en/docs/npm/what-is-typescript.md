@@ -2,8 +2,8 @@
 title: "What is TypeScript?"
 description: "Just what is TypeScript and how is it different to JavaScript?"
 lead: "Just what is TypeScript and how is it different to JavaScript?"
-date: 2020-10-06T08:49:31+00:00
-lastmod: 2020-10-06T08:49:31+00:00
+date: 2023-05-01T04:46:31+00:00
+lastmod: 2023-05-01T04:46:31+00:00
 draft: false
 images: []
 menu:

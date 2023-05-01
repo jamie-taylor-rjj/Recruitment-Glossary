@@ -15,6 +15,10 @@ toc: true
 
 ## 10,000 ft Overview
 
+npm is a package manager for Node based applications. It allows for users to download packages of code from both the public npm repository and from private ones, too.
+
+npm and Node are typically used with either [JavaScript]({{< relref "what-is-javascript" >}}) of [TypeScript]({{< relref "what-is-typescript" >}}).
+
 ## Beginner Information
 
 ## Intermediary Information

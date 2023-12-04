@@ -15,7 +15,9 @@ toc: true
 
 ## 10,000 ft Overview
 
-Xamarin was a technology created by a team of developers lead by [Miguel de Icaza](https://en.wikipedia.org/wiki/Miguel_de_Icaza). It used 
+Mono is a reimplementation of .NET Framework, written entirely in C++. It was created by a team of developers lead by [Miguel de Icaza](https://en.wikipedia.org/wiki/Miguel_de_Icaza) as .NET Framework only ran on Windows. The goal for Mono was to make an unofficial platform agnostic .NET Runtime.
+
+The work done by de Icaza and the rest of the time directly lead to the creation of [Xamarin]({{< relref "what-is-xamarin" >}}), .NET Core (and modern .NET), [Blazor]({{< relref "what-is-blazor" >}}), and [.NET MAUI]({{< relref "what-is-maui" >}}).
 
 ## Beginner Information
 

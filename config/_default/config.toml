@@ -5,7 +5,7 @@ disableHugoGeneratorInject = true
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-paginate = 7
+pagination.pagerSize = 7
 rssLimit = 10
 
 # Enable for syntax highlighting

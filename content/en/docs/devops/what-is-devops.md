@@ -88,7 +88,7 @@ DevOps implementation involves both cultural changes and technical practices tha
 
 **Infrastructure Management:**
 
-{{< highlight bash "linenos=inline">}}
+{{< highlight bash >}}
 # Infrastructure as Code example with Terraform
 resource "aws_instance" "web_server" {
   ami           = "ami-0c02fb55956c7d316"

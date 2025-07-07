@@ -21,9 +21,11 @@ toc: true
 - .NET Core
 - .NET (aka modern .NET)
 - [Xamarin]({{< relref "xamarin/what-is-xamarin" >}})
+- [Mono]({{< relref "mono/what-is-mono" >}})
 - [Blazor]({{< relref "blazor/what-is-blazor" >}})
 - [.NET MAUI]({{< relref "maui/what-is-maui" >}})
 - [SignalR]({{< relref "signalr/what-is-signalr" >}})
+- [WPF]({{< relref "wpf/what-is-wpf" >}})
 
 ## Beginner Information
 

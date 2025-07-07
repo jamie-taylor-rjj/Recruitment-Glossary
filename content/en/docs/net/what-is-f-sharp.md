@@ -56,7 +56,49 @@ let run = fib5 10 |> Seq.iter (printfn "%d")
 
 ## Intermediary Information
 
+F# is designed around immutability by default, which means that once a value is assigned, it cannot be changed. This leads to more predictable code and fewer bugs related to state changes. Here's an example of immutable data structures:
+
+{{< highlight fsharp "linenos=inline">}}
+// Immutable record type
+type Person = {
+    Name: string
+    Age: int
+}
+
+let person1 = { Name = "Alice"; Age = 30 }
+// To "change" a value, you create a new record
+let person2 = { person1 with Age = 31 }
+{{< /highlight >}}
+
+F# excels at data transformation and processing, making it particularly suitable for:
+
+- Financial modeling and calculations
+- Data analysis and scientific computing
+- Web APIs and services
+- Domain-specific languages (DSLs)
+
+The language provides powerful pattern matching capabilities that allow developers to handle complex data structures elegantly:
+
+{{< highlight fsharp "linenos=inline">}}
+type Shape = 
+    | Circle of radius: float
+    | Rectangle of width: float * height: float
+    | Triangle of base: float * height: float
+
+let calculateArea shape =
+    match shape with
+    | Circle radius -> Math.PI * radius * radius
+    | Rectangle (width, height) -> width * height
+    | Triangle (base, height) -> 0.5 * base * height
+{{< /highlight >}}
+
 ## Advanced Information
+
+F# provides advanced features like computation expressions (similar to monads in Haskell), type providers for accessing external data sources, and async workflows for handling asynchronous operations. These features make F# particularly powerful for enterprise applications dealing with complex data processing and integration scenarios.
+
+The language's type system supports algebraic data types, generics, and units of measure, making it excellent for domains requiring mathematical precision and type safety. F# also interoperates seamlessly with existing .NET libraries and can be used alongside C# in the same solution.
+
+For performance-critical applications, F# provides tail-call optimization and efficient collection types. The language's emphasis on immutability and functional programming patterns often leads to more parallelizable code, making it suitable for concurrent and distributed systems.
 
 ## External Links
 

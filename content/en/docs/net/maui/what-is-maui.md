@@ -28,8 +28,123 @@ As with [Xamarin]({{< relref "what-is-xamarin" >}}), .NET MAUI translates .NET A
 
 ## Beginner Information
 
+.NET MAUI follows the "write once, run anywhere" philosophy, allowing developers to share business logic and UI code across multiple platforms. A simple MAUI page might look like this:
+
+{{< highlight csharp "linenos=inline">}}
+public partial class MainPage : ContentPage
+{
+    int count = 0;
+
+    public MainPage()
+    {
+        InitializeComponent();
+    }
+
+    private void OnCounterClicked(object sender, EventArgs e)
+    {
+        count++;
+        CounterBtn.Text = $"Clicked {count} times";
+    }
+}
+{{< /highlight >}}
+
+The corresponding XAML markup:
+
+{{< highlight xml "linenos=inline">}}
+<ContentPage x:Class="MyApp.MainPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30,0">
+            <Label Text="Welcome to .NET MAUI!" FontSize="18" />
+            <Button x:Name="CounterBtn" Text="Click me" Clicked="OnCounterClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+{{< /highlight >}}
+
+MAUI applications use XAML for UI definition and C# for business logic, similar to WPF and Xamarin.Forms. The framework provides native controls that are mapped to platform-specific implementations, ensuring native look and feel on each platform.
+
 ## Intermediary Information
 
+.NET MAUI provides several architectural advantages over traditional mobile development:
+
+**Single Project Structure:**
+
+- One project targets multiple platforms
+- Shared resources and dependencies
+- Platform-specific code when needed
+- Conditional compilation for platform differences
+
+**Native Performance:**
+
+- Compiles to native code on each platform
+- Direct access to platform APIs
+- Hardware acceleration support
+- Memory management optimizations
+
+**UI Approaches:**
+
+- XAML for declarative UI
+- C# code for programmatic UI
+- [Blazor]({{< relref "what-is-blazor" >}}) Hybrid for web-based UI
+- Community toolkit for additional controls
+
+Platform-specific features can be accessed through dependency injection:
+
+{{< highlight csharp "linenos=inline">}}
+#if ANDROID
+public class AndroidSpecificService : ISpecificService
+{
+    public string GetPlatformInfo()
+    {
+        return $"Android {Android.OS.Build.VERSION.Release}";
+    }
+}
+#elif IOS
+public class iOSSpecificService : ISpecificService
+{
+    public string GetPlatformInfo()
+    {
+        return $"iOS {UIKit.UIDevice.CurrentDevice.SystemVersion}";
+    }
+}
+#endif
+{{< /highlight >}}
+
 ## Advanced Information
+
+.NET MAUI offers advanced capabilities for enterprise mobile development:
+
+**Performance Optimization:**
+
+- Ahead-of-time (AOT) compilation
+- Trimming for smaller app sizes
+- Native AOT for iOS and Android
+- Memory profiling and optimization tools
+
+**Enterprise Features:**
+
+- Authentication and authorization
+- Data encryption and secure storage
+- API integration with HttpClient
+- Offline data synchronization
+- Push notifications
+
+**Deployment and Distribution:**
+
+- Microsoft Store integration
+- Enterprise app distribution
+- Continuous integration/deployment
+- App signing and provisioning
+
+**Architecture Patterns:**
+
+- Model-View-ViewModel (MVVM)
+- Dependency injection container
+- Command pattern for UI actions
+- Data binding and templating
+
+MAUI represents the evolution of Microsoft's cross-platform strategy, unifying web and native development under a single framework. It's particularly valuable for organizations with existing .NET expertise who want to expand into mobile development without learning entirely new technology stacks.
 
 ## External Links

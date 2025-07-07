@@ -9,9 +9,6 @@
       <a class="btn btn-primary btn-lg px-4 mb-2"
         href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}start-here/introduction/"
         role="button">{{ i18n "get-started" }}</a>
-        <!-- TODO: need link to GitHub repo -->
-      <p class="meta">Open-source MIT Licensed. <a href="{{ .Site.Params.docsRepo }}">GitHub v{{ $data := getJSON
-          "/package.json" }}{{ $data.version }}</a></p>
     </div>
   </div>
 </section>

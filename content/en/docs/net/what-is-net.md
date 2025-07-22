@@ -20,12 +20,12 @@ toc: true
 - .NET Framework
 - .NET Core
 - .NET (aka modern .NET)
-- [Xamarin]({{< relref "xamarin/what-is-xamarin" >}})
-- [Mono]({{< relref "mono/what-is-mono" >}})
-- [Blazor]({{< relref "blazor/what-is-blazor" >}})
-- [.NET MAUI]({{< relref "maui/what-is-maui" >}})
-- [SignalR]({{< relref "signalr/what-is-signalr" >}})
-- [WPF]({{< relref "wpf/what-is-wpf" >}})
+- Xamarin (docs page coming soon)
+- Mono (docs page coming soon)
+- Blazor (docs page coming soon)
+- .NET MAUI (docs page coming soon)
+- SignalR (docs page coming soon)
+- WPF (docs page coming soon)
 
 ## Beginner Information
 
@@ -46,9 +46,9 @@ However, in recent years VB .NET support has been quietly dropped, and [F#]({{< 
 
 .NET Core (now know as ".NET") started life as a combination of an open-source re-write of .NET Framework and the Mono runtime. Mono was created as a one-to-one binary equivalent runtime for .NET Framework applications, but was cross-platform.
 
-[Xamarin]({{< relref "xamarin/what-is-xamarin" >}}) was created as a way to build and run applications for Android and iOS (both are Unix-like operating systems), using XAML-like syntax to describe the user interface. When Microsoft bought Xamarin, they started work on better tooling for Xamarin, and started converting the Mono runtime to [Web Assembly](https://webassembly.org/) such that it could be run in the browser; this created the [Blazor]({{< relref "blazor/what-is-blazor" >}}) project.
+Xamarin was created as a way to build and run applications for Android and iOS (both are Unix-like operating systems), using XAML-like syntax to describe the user interface. When Microsoft bought Xamarin, they started work on better tooling for Xamarin, and started converting the Mono runtime to [Web Assembly](https://webassembly.org/) such that it could be run in the browser; this created the Blazor project.
 
-There was no official way to build GUI-based when .NET Core was first released (whereas .NET Framework has WinForms, WPF, UWP, and WinUI). But shortly after the release of .NET 6, Microsoft released [.NET MAUI]({{< relref "maui/what-is-maui" >}}), which is the next evolution of Xamarin Forms. This allows developers to build GUI-based applications for .NET and run them on:
+There was no official way to build GUI-based when .NET Core was first released (whereas .NET Framework has WinForms, WPF, UWP, and WinUI). But shortly after the release of .NET 6, Microsoft released .NET MAUI, which is the next evolution of Xamarin Forms. This allows developers to build GUI-based applications for .NET and run them on:
 
 - Windows
 - Android
